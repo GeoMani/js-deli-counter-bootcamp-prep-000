@@ -14,5 +14,5 @@ function nowServing(deliLine) {
   
 }
 
-function currentLine
+function currentLine(deliLine)
 
