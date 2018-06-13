@@ -1,8 +1,6 @@
-var katzDeli = [];
-
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(`${name}`)
-  let i = katzDeliLine.indexOf(name)+1
+function takeANumber(deliLine, name) {
+  deliLine.push(`${name}`)
+  let i = deliLine.indexOf(name)+1
   return `Welcome, ${name}. You are number ` + i + ` in line.`
 }
 
