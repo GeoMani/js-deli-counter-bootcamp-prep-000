@@ -19,7 +19,7 @@ function currentLine(deliLine) {
     for(let i = 0; i < deliLine.length; i++) {
       line.push(` ${i+1}. ${deliLine[i]}`)
     } 
-    return `The line is currently:${line}.`
+    return `The line is currently:${line}`
     }else {
             return "The line is currently empty."
           }
