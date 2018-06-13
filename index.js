@@ -13,12 +13,11 @@ function nowServing(deliLine) {
 }
 
 function currentLine(deliLine) {
-  var line = [];
   
-  if(deliLine.length = 0) {
-    return "The line is currently empty."
-  } else {
-    for()
+  if(deliLine.length > 0) {
+    return `The line is currently: ` +
+    for(i = 0; i < deliLine.length; i++) {
+    return
+    } +
   }
-
 }
