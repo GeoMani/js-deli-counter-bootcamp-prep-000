@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing(deliLine) {
   if(deliLine.length > 0) {
-    console.log(`Currently serving ${deliLine[0]}.`)
+    print (`Currently serving ${deliLine[0]}.`)
     deliLine.shift();
   }   else {return `There is nobody waiting to be served!`;
     
