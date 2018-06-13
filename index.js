@@ -23,5 +23,5 @@ function currentLine(deliLine) {
     }else {
         return "The line is currently empty."
         }
-  }
+  
 }
