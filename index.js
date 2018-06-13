@@ -13,6 +13,7 @@ function nowServing(deliLine) {
 }
 
 function currentLine(deliLine) {
-  
+  let i = deliLine.length
+  for
 
 }
