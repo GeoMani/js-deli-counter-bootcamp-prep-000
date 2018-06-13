@@ -12,5 +12,3 @@ function nowServing(deliLine) {
   
 }
 
-function currentLine(deliLine)
-
